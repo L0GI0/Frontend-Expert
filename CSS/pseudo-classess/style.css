@@ -1,0 +1,53 @@
+/* Welcome to our Playground! */
+
+p:first-of-type { /* first element inside its element parent*/
+    color: orange;
+  }
+  
+  p:last-of-type { /* last element inside its element parent*/
+    color: orange;
+  }
+  
+  p:nth-of-type(1) {
+    color: orange;
+  }
+  
+  p:nth-of-type(even) {
+    color: orange;
+  }
+  
+  p:nth-of-type(odd) {
+    color: orange;
+  }
+  
+  p:nth-of-type(2n - 1) { /* same as odd */
+    color: orange;
+  }
+  
+  p:first-child {
+    color: purple;
+  }
+  
+  p:last-child {
+    color: purple;
+  }
+  
+  p:nth-child(even) {
+    color: purple;
+  }
+  
+  input:focus {
+    outline: 2px solid blue;
+  }
+  
+  input:invalid:not(:focus) {
+    outline: 2px solid red;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }

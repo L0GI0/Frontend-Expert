@@ -1,0 +1,37 @@
+/* Welcome to our Playground! */
+
+/* Pseudo Elements */
+
+p::before {
+    content: ">";
+  }
+  
+  p::after {
+    content: "!";
+  }
+  
+  p::first-letter {
+    font-size: 2em;
+  }
+  
+  p::first-line {
+    font-size: 2em;
+  }
+  
+  
+  
+  input:focus {
+    outline: 2px solid blue;
+  }
+  
+  input:invalid:not(:focus) {
+    outline: 2px solid red;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }

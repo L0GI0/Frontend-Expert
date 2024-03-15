@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Modules</title>
+        <script src="Person.js" type="module"></script>
+        <!-- The type="module" hides code from
+             global namespace (wraps the file in immediately invoked
+             function expression) and also
+             includes defer attribute for us -->
+        <script src="helpers.js" type="module"></script>
+        <script src="modules.js" type="module"></script>
+        <script src="nomoduleversion.js" nomodule></script> <!-- in case browser doesnt support modules -->
+    </head>
+    <body>
+        <h1>Modules</h1>
+    </body>
+</html>
+

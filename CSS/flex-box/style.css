@@ -1,0 +1,39 @@
+/* Welcome to our Playground! */
+
+section {
+    display: flex;
+  /*   flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    gap: 10px;
+    height: 90vh;
+    border: 2px dotted black;
+  }
+  
+  .red {
+    order: -1;
+    height: 25px;
+    background-color: red;
+  }
+  
+  .green {
+    flex: 1 1 200px;
+    height: 40px;
+    background-color: green;
+  }
+  
+  .blue {
+    height: 30px;
+    background-color: blue;
+  }
+  
+  div {
+    border: 5px solid black;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
